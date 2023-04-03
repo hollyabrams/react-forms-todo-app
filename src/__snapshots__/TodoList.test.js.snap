@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="todo-header"
+    >
+      <h1
+        class="todo-header__title"
+      >
+        Todo List
+      </h1>
+      <button
+        class="todo-header__delete-all-button"
+      >
+        Delete All
+      </button>
+    </div>
+    <form>
+      <label
+        for="task"
+      >
+        Task:
+      </label>
+      <input
+        id="task"
+        name="task"
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Add Todo
+      </button>
+    </form>
+    <ul
+      class="list-group"
+    />
+  </div>
+</DocumentFragment>
+`;
